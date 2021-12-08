@@ -1,0 +1,23 @@
+{
+  "name": "w10-homework-team-profile-generator",
+  "version": "1.0.0",
+  "description": "[![License: MIT](https://img.shields.io/github/license/CailinBellWold/Team-Profile-Generator?style=plastic)](https://opensource.org/licenses/MIT)",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ian-dot/W10.git"
+  },
+  "author": "ian-dot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ian-dot/W10/issues"
+  },
+  "homepage": "https://github.com/ian-dot/W10#readme"
+}
