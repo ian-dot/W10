@@ -4,18 +4,18 @@ describe("Employee", () => {
 
     describe("Initialization", () => {
         it("Should create an object with a name, id and email address if provided valid arguments", () => {
-            const employee = new Employee("Cailin Bell Wold", 3, "cmbellwold@gmail.com");
+            const employee = new Employee("Ian Elizalde", 3, "egian93@gmail.com");
 
-            expect(employee.name).toEqual("Cailin Bell Wold");
+            expect(employee.name).toEqual("Ian Elizalde");
             expect(employee.id).toEqual(3);
-            expect(employee.email).toEqual("cmbellwold@gmail.com");
+            expect(employee.email).toEqual("egian93@gmail.com");
         })
     });
 
     describe("Name", () => {
         it("Should set the Name via the constructor function", () => {
-        const input = "Cailin Bell Wold";
-        const expected = {"name": "Cailin Bell Wold", "id": 1, "email": "name@name.com"};
+        const input = "Ian Elizalde";
+        const expected = {"name": "Ian Elizalde", "id": 1, "email": "name@name.com"};
         
         const result = new Employee(input, 1, "name@name.com");
 
@@ -36,8 +36,8 @@ describe("Employee", () => {
 
     describe("Email", () => {
         it("Should set the Email via the constructor function", () => {
-        const input = "cmbellwold@gmail.com";
-        const expected = {"name": "First Last", "id": 1, "email": "cmbellwold@gmail.com"};
+        const input = "egian93@gmail.com";
+        const expected = {"name": "First Last", "id": 1, "email": "egian93@gmail.com"};
         
         const result = new Employee("First Last", 1, input);
 
