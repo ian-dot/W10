@@ -21,7 +21,7 @@ describe("Engineer", () => {
                             <ul class='list-group list-group-flush'>
                                 <li class='list-group-item'>EMPLOYEE ID:&nbsp 3</li>
                                 <li class='list-group-item'>EMAIL:&nbsp <a href="mailto:egian93@gmail.com">egian93@gmail.com</a></li>
-                                <li class='list-group-item'>GITHUB USERNAME:&nbsp <a href="https://github.com/ian-dot">Ian-dot</a></li>
+                                <li class='list-group-item'>GITHUB USERNAME:&nbsp <a href="https://github.com/ian-dot">ian-dot</a></li>
                             </ul>
                         </div>
                     </div>
